@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="./main.css">
+   <style type="text/css">
+       body{
+           background-image: url("./assets/pexels-anna-shvets-3902881.jpg");
+           background-size: 2000px;
+           background-repeat: no-repeat;
+       }
+   </style>
+</head>
+
+<div class="header">
+    <div class="image"><img src="assets/79-790011_9-mundo-png-12503-dzone-linkwell-45x45cm-18.png" alt="" width="100" height="100"></div><div class="text">COVID-19 by Country</div>
+</div>
+
+
+<body>
+    <!-- <div class="wrapper"></div> -->
+        <!-- <div class="navbar">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/symbole-du-docteur-icone-png-jaune.png" alt="" width="70" height="70" class="d-inline-block align-text-top">
+                    <style></style>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    -->
+       <!-- <h1>Covid-19 by Country</h1> --> 
+        <div class="contentContainer">
+            <form>
+                <p>
+                    <label for="search">Country</label>
+                    <input type="text" id="search" class="search" required>
+                </p>
+                <p>
+                    <label for="start-date">Start Date</label>
+                    <input type="date" id="start-date" class="start-date" pattern="[0-9]{8}" required>
+                </p>
+                <p>
+                    <label for="end-date">End Date </label>
+                    <input type="date" id="end-date" class="end-date" pattern="[0-9]{8}" required>
+                </p>
+                <p>
+                    <button class="submit">Search</button>
+                </p>
+            </form>
+
+            <div id="content">
+                <p></p>
+            </div>
+ 
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
